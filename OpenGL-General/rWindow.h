@@ -13,12 +13,13 @@ namespace rwindow {
 
 	static float aspect_ratio;
 
+
 	void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 
 	 	aspect_ratio = static_cast<float>(width) / static_cast<float>(height);
   		
 		glViewport(0, 0, width, height);
 	}
-        
+    
 
 }

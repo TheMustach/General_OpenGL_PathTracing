@@ -62,12 +62,24 @@
     <ClInclude Include="texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Abuffer.vert">
       <Filter>Resource Files\shaders</Filter>
     </None>
     <None Include="Abuffer.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="framebufferA.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="framebufferB.vert">
       <Filter>Resource Files\shaders</Filter>
     </None>
   </ItemGroup>
